@@ -123,3 +123,24 @@ To avoid a lookup for each API request, the information is cached. In addition, 
 Policy-Name: `Lookup API/Check exposed API`
 
 ![Check the exposed API](images/check-exposed-api-policy.png)
+
+
+## API Management Version Compatibilty
+This artefact was successfully tested for the following versions:
+- 7.7.20200730 (or higher / has been exported from that version, hence it cannot be imported into earlier versions)
+
+## Bug and Caveats
+- VHost and API-RoutingKey is not implemented
+
+## Contributing
+
+Please read [Contributing.md](https://github.com/Axway-API-Management-Plus/Common/blob/master/Contributing.md) for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Team
+
+![alt text][Axwaylogo] Axway Team
+
+[Axwaylogo]: https://github.com/Axway-API-Management/Common/blob/master/img/AxwayLogoSmall.png  "Axway logo"
+
+## License
+[Apache License 2.0](LICENSE)
