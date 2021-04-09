@@ -16,9 +16,11 @@ For example, you can configure an API with a custom-property "Public API" and qu
 
 You can do the same with any other Frontend-API property. So, for example, based on Tags, Security, State, etc.
 
+:point_right: Consider all provided policies as templates which should help to implement the solution presented here. Most likely, you will still need to customize the policies to your requirements, which is the intention. For example, perform the exposure check based on additional properties or do not cache the entire API proxy in the security layer.
+
 # Internal API-Management layer
 
-A description of policies that are supposed to run on the internal API-Management platform.
+A description of [policies](/src/api-management-layer-policies.xml) that are supposed to run on the internal API-Management platform.
 
 ## API-Proxy cache policy
 
@@ -113,7 +115,7 @@ with(javaImp){
 
 # Security API-Gateway layer
 
-A description of policies that are supposed to run on the API-Gateway security layer.
+A description of [policies](/src/security-layer-policies.xml) that are supposed to run on the API-Gateway security layer.
 
 ## Check exposed API policy
 
